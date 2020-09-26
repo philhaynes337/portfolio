@@ -1,0 +1,175 @@
+body {
+	background-color: #243E36;
+}
+
+img {
+	margin: auto;
+	width: 500;
+	height: 500;
+}
+
+
+/* link code start */
+
+a:link 	{ color: blue; }
+a:visited 	{ color: blue; }
+a:hover 	{ color: white; }
+a:active 	{ color: red; }
+/*link code end */
+
+/* H1-6 CSS Code Start */
+h1 {
+	font-size: 60px;
+	font-family: Arial;
+	color: black;
+}
+
+h2 {
+	font-size: 22px;
+	font-family: Arial;
+	color: black;
+}
+
+h3 {
+	font-size: 20px;
+	font-family: Arial;
+	color: black;
+	text-align: center;
+}
+
+
+/* End H1-6 Code */
+
+p, ul {
+	font-size: 15px;
+	font-family: Arial;
+	color: black;
+	
+}
+p {
+	text-align: left;
+}
+
+.centerit {
+	text-align: center;
+	list-style-position: inside;
+	margin: auto;
+}
+
+hr {
+	width: 700px;
+	height: 5px;
+	background-color: #475B63;
+	border-radius: 10px;
+	border-color: #475B63;
+}
+
+/* create edges for images */
+.img-crl {
+	border-radius: 25px;
+}
+
+/* start of the main parts header main footer */
+
+header {
+	background-color: #E0EEC6;
+	border-radius: 27px 25px 25px 27px;
+	margin: auto;
+	height: 500px;
+	width: 1200px;
+}
+
+main {
+	background-color: #F1F7ED;/* #729B79; */
+	border-radius: 25px 25px 25px 25px;
+	margin: auto;
+	width: 1200px;
+	height: auto;
+
+}
+
+footer {
+	background-color: #E0EEC6;
+	border-radius: 25px;
+	margin: auto;
+	width: 1200px;
+	height: 50px;
+	text-align: center;
+	font-family: Arial;
+	
+}
+
+.frame {
+	text-align: center;
+
+}
+
+iframe {
+	border-radius: 25px;
+}
+
+
+/* end of the main parts */
+
+/* flex code for grouping and items and variances */
+.group {
+	display: flex;
+	flex-direction: row;
+}
+
+.item {
+	flex: 1
+	margin: 10px;
+	font-family: Arial;
+}
+
+.dbl {
+	flex: 2;
+	margin: 10px;
+}
+
+/* end flex code */
+
+/* Button Code */
+
+.button {
+	display: inline-block;
+	font-family: Arial;
+	font-size: 15px;
+	text-decoration: none;
+	margin: 10px;
+	padding: 5px 15px;
+	border-radius: 25px;
+	color: blue;
+	background-color: #7CA982;
+	border-color: #7CA982;
+	font-weight: bold;
+}
+
+.btn-cnt {
+	color: black;
+	background-color: #C2A83E;
+	border-color: #C2A83E;
+	font-weight: bold;
+
+}
+
+
+a.btn { color: black; }
+a.btn:link { color: black; }
+a.btn:visited { color: black; }
+a.btn:hover { color: white; }
+a.btn:active { color: white; }
+
+
+/* end button code */
+
+/* main div coding */
+.main-bdy {
+	width: 700px;
+	margin: auto;
+}
+
+.ext {
+	width: 250px;
+}
