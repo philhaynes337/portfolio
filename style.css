@@ -39,6 +39,33 @@ footer {
 	
 }
 
+img {
+	margin: auto;
+	width: 300;
+	height: 300;
+}
+
+hr {
+	width: 150px;
+	height: 5px;
+	background-color: #475B63;
+	border-radius: 10px;
+	border-color: #475B63;
+}
+
+form label,
+form input,
+form textarea {
+	display: block;
+	width: 300px;
+	border-radius: 10px;
+}
+
+form textarea {
+
+	height: 300px;
+
+}
 
 
 @media all and (min-width: 600px){
@@ -50,10 +77,7 @@ img {
 }
 
 
-/* link code start */
 
-
-/*link code end */
 
 /* H1-6 CSS Code Start */
 h1 {
