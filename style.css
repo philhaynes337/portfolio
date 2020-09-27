@@ -2,6 +2,47 @@ body {
 	background-color: #243E36;
 }
 
+a:link 	{ color: blue; }
+a:visited 	{ color: blue; }
+a:hover 	{ color: white; }
+a:active 	{ color: red; }
+
+
+
+header, main, footer {
+	width: 400px;
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+	background-color: #E0EEC6;
+	border-radius: 27px 25px 25px 27px;
+	margin: auto;
+	height: 500px;
+
+}
+
+main {
+	background-color: #F1F7ED;/* #729B79; */
+	border-radius: 25px;
+	height: auto;
+
+}
+
+footer {
+	background-color: #E0EEC6;
+	border-radius: 25px;
+	height: 50px;
+	text-align: center;
+	
+}
+
+
+
+@media all and (min-width: 600px){
+
 img {
 	margin: auto;
 	width: 500;
@@ -11,10 +52,7 @@ img {
 
 /* link code start */
 
-a:link 	{ color: blue; }
-a:visited 	{ color: blue; }
-a:hover 	{ color: white; }
-a:active 	{ color: red; }
+
 /*link code end */
 
 /* H1-6 CSS Code Start */
@@ -69,7 +107,7 @@ hr {
 	border-radius: 25px;
 }
 
-@media all and (min-width: 600px){
+
 /* start of the main parts header main footer */
 
 header {
