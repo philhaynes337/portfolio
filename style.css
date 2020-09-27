@@ -68,7 +68,7 @@ hr {
 .img-crl {
 	border-radius: 25px;
 }
-
+@media all and (min-width: 600px){
 /* start of the main parts header main footer */
 
 header {
@@ -99,6 +99,7 @@ footer {
 	
 }
 
+/* google frame code */
 .frame {
 	text-align: center;
 
@@ -172,4 +173,25 @@ a.btn:active { color: white; }
 
 .ext {
 	width: 250px;
+}
+
+/* Form CSS Code */
+
+form label,
+form input,
+form textarea {
+	display: block;
+	width: 700px;
+	border-radius: 10px;
+}
+
+form textarea {
+
+	height: 300px;
+
+}
+
+
+/* end form css code */
+
 }
