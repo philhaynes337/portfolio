@@ -39,10 +39,27 @@ footer {
 	
 }
 
+.group {
+	display: flex;
+	flex-direction: column;
+}
+
+.item {
+	flex: 1
+	margin: 10px;
+	font-family: Arial;
+}
+
 img {
 	margin: auto;
-	width: 300;
-	height: 300;
+	max-width: 100%
+	max-height: 100%;
+	
+}
+
+.img-self {
+	height: 500;
+	width: 425;
 }
 
 hr {
@@ -71,12 +88,15 @@ form textarea {
 @media all and (min-width: 600px){
 
 img {
-	margin: auto;
-	width: 500;
-	height: 500;
+	max-width: 100%;
+	max-height: 100%;
+
 }
 
-
+.imgself {
+	height: 500px;
+	width: 425px;
+}
 
 
 /* H1-6 CSS Code Start */
@@ -129,8 +149,14 @@ hr {
 /* create edges for images */
 .img-crl {
 	border-radius: 25px;
+	height: auto;
+	width: 100%;
 }
 
+.img-self {
+	height: 500;
+	width: 425;
+}
 
 /* start of the main parts header main footer */
 
