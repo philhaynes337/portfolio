@@ -58,8 +58,8 @@ img {
 }
 
 .img-self {
-	height: 500;
-	width: 425;
+	height: 300;
+	width: 225;
 }
 
 hr {
@@ -84,6 +84,12 @@ form textarea {
 
 }
 
+.imgself{
+	height: 300;
+	width: 225;
+}
+
+
 
 @media all and (min-width: 600px){
 
@@ -94,8 +100,8 @@ img {
 }
 
 .imgself {
-	height: 300px;
-	width: 225px;
+	height: 500px;
+	width: 425px;
 }
 
 
