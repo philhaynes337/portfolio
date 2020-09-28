@@ -52,8 +52,9 @@ footer {
 
 img {
 
-	max-width: 100%
+	max-width: 100%;
 	max-height: 100%;
+	margin: auto;
 	
 }
 
@@ -103,6 +104,18 @@ form textarea {
 /* start of desktop css code  */
 
 @media all and (min-width: 600px){
+
+
+body {
+	background-color: #243E36;
+}
+
+a:link 	{ color: blue; }
+a:visited 	{ color: blue; }
+a:hover 	{ color: white; }
+a:active 	{ color: red; }
+
+
 
 img {
 	max-width: 100%;
