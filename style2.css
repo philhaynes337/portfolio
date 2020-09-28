@@ -17,7 +17,9 @@ img {
 }
 
 
-
+p {
+	color: red;
+}
 
 
 .selfimg {
@@ -32,9 +34,8 @@ img {
 header {
 	width: 1200px;
 	height: 500px;
-	border-color: blue;
-	border-width: 10px;
-	
+	border: 10px solid red;
+
 }
 
 img {
@@ -42,13 +43,16 @@ img {
 	max-height: 100%;
 }
 
-
+p {
+	color: blue;
+}
 
 .selfimg {
 	width: 500px;
 	height: 225px;
 	margin: auto;
 }
+
 
 
 
