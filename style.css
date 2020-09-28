@@ -51,7 +51,7 @@ footer {
 }
 
 img {
-	margin: auto;
+
 	max-width: 100%
 	max-height: 100%;
 	
@@ -94,8 +94,8 @@ img {
 }
 
 .imgself {
-	height: 500px;
-	width: 425px;
+	height: 300px;
+	width: 225px;
 }
 
 
