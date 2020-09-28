@@ -64,7 +64,7 @@ img {
 }
 
 hr {
-	width: 150px;
+	width: 200px;
 	height: 5px;
 	background-color: #475B63;
 	border-radius: 10px;
@@ -86,8 +86,8 @@ form textarea {
 }
 
 .imgself{
-	height: 100px;
-	width: 25px;
+	height: 300px;
+	width: 225px;
 }
 
 
