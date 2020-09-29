@@ -64,7 +64,7 @@ img {
 }
 
 hr {
-	width: 200px;
+	width: 250px;
 	height: 5px;
 	background-color: #475B63;
 	border-radius: 10px;
@@ -75,7 +75,7 @@ form label,
 form input,
 form textarea {
 	display: block;
-	width: 300px;
+	width: 400px;
 	border-radius: 10px;
 }
 
@@ -130,6 +130,15 @@ a.btn:active { color: white; }
 .img-crl {
 	border-radius: 25px;
 
+
+/* google frame code */
+.frame {
+	text-align: center;
+
+}
+
+iframe {
+	border-radius: 25px;
 }
 
 
