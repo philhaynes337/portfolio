@@ -162,14 +162,14 @@ a.btn:active 	{ color: white; }
 }
 
 iframe {
-	width: 400px;
-	height: 600px;
+	width: 450px;
+	height: 550px;
 	border-radius: 25px;
 }
 
 .frame {
-	width: 400px;
-	height: 600px;
+	width: 450px;
+	height: 550px;
 	padding: 0px;
 }
 
