@@ -162,14 +162,14 @@ a.btn:active 	{ color: white; }
 }
 
 iframe {
-	width: 600px;
-	height: 800px;
+	width: 500px;
+	height: 700px;
 	border-radius: 25px;
 }
 
 .frame {
-	width: 600px;
-	height: 800px;
+	width: 500px;
+	height: 700px;
 	padding: 10px;
 }
 
@@ -344,12 +344,14 @@ iframe {
 .group {
 	display: flex;
 	flex-direction: row;
+	margin: auto;
 }
 
 .item {
 	flex: 1;
 	margin: 0px;
 	font-family: Arial;
+	margin: auto;
 }
 
 .dbl {
