@@ -38,6 +38,31 @@ footer {
 	text-align: center;
 	
 }
+
+/* H1-6 CSS Code Start */
+h1 {
+	font-size: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+h2 {
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+h3 {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	text-align: center;
+}
+
+
+/* End H1-6 Code */
+
+
 .main-bdy {
 	width: 600px;
 	margin: auto;
@@ -136,6 +161,8 @@ a.btn:active 	{ color: white; }
 }
 
 iframe {
+	width: 500px;
+	height: 500px;
 	border-radius: 25px;
 }
 
