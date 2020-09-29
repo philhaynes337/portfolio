@@ -10,7 +10,7 @@ a:active 	{ color: red; }
 
 
 header, main, footer {
-	width: 500px;
+	width: 400px;
 	margin: auto;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -141,7 +141,11 @@ iframe {
 	padding: 10px;
 }
 
-
+.centerit {
+	display: block;
+    margin: 0 auto;
+    text-align: center;
+}
 
 
 
@@ -284,6 +288,8 @@ hr {
 
 iframe {
 	border-radius: 25px;
+	height: 450px;
+	width: 600px;
 }
 
 
