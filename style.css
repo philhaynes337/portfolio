@@ -38,6 +38,10 @@ footer {
 	text-align: center;
 	
 }
+.main-bdy {
+	width: 600px;
+	margin: auto;
+}
 
 .group {
 	display: flex;
