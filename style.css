@@ -2,7 +2,7 @@ body {
 	background-color: #243E36;
 }
 
-a:link 	{ color: blue; }
+a:link 		{ color: blue; }
 a:visited 	{ color: blue; }
 a:hover 	{ color: white; }
 a:active 	{ color: red; }
@@ -75,7 +75,7 @@ form label,
 form input,
 form textarea {
 	display: block;
-	width: 400px;
+	width: 300px;
 	border-radius: 10px;
 }
 
@@ -85,7 +85,7 @@ form textarea {
 
 }
 
-.imgself{
+.imgself {
 	height: 400px;
 	width: 325px;
 }
@@ -118,30 +118,27 @@ form textarea {
 }
 
 
-a.btn { color: black; }
-a.btn:link { color: black; }
-a.btn:visited { color: black; }
-a.btn:hover { color: white; }
-a.btn:active { color: white; }
+a.btn 			{ color: black; }
+a.btn:link	 	{ color: black; }
+a.btn:visited 	{ color: black; }
+a.btn:hover 	{ color: white; }
+a.btn:active 	{ color: white; }
 
 
 /* end button code */
 
 .img-crl {
 	border-radius: 25px;
-
-
-/* google frame code */
-
-
 }
 
 iframe {
 	border-radius: 25px;
 }
+
 .frame {
-	width: 400px;
-	height: 400px;
+	width: 500px;
+	height: 500px;
+	padding: 10px;
 }
 
 
@@ -157,17 +154,52 @@ iframe {
 
 /* start of desktop css code  */
 
-@media all and (min-width: 600px){
+@media all and (min-width: 600px) {
 
 
 body {
 	background-color: #243E36;
 }
 
-a:link 	{ color: blue; }
+a:link 		{ color: blue; }
 a:visited 	{ color: blue; }
 a:hover 	{ color: white; }
 a:active 	{ color: red; }
+
+
+
+
+/* start of the main parts header main footer */
+
+header {
+	background-color: #E0EEC6;
+	border-radius: 27px 25px 25px 27px;
+	margin: auto;
+	height: 500px;
+	width: 1200px;
+}
+
+main {
+	background-color: #F1F7ED;/* #729B79; */
+	border-radius: 25px 25px 25px 25px;
+	margin: auto;
+	width: 1200px;
+	height: auto;
+
+}
+
+footer {
+	background-color: #E0EEC6;
+	border-radius: 25px;
+	margin: auto;
+	width: 1200px;
+	height: 50px;
+	text-align: center;
+	font-family: Arial;
+	
+}
+
+
 
 
 
@@ -212,6 +244,7 @@ p, ul {
 	color: black;
 	
 }
+
 p {
 	text-align: left;
 }
@@ -241,35 +274,7 @@ hr {
 	width: 425px;
 }
 
-/* start of the main parts header main footer */
 
-header {
-	background-color: #E0EEC6;
-	border-radius: 27px 25px 25px 27px;
-	margin: auto;
-	height: 500px;
-	width: 1200px;
-}
-
-main {
-	background-color: #F1F7ED;/* #729B79; */
-	border-radius: 25px 25px 25px 25px;
-	margin: auto;
-	width: 1200px;
-	height: auto;
-
-}
-
-footer {
-	background-color: #E0EEC6;
-	border-radius: 25px;
-	margin: auto;
-	width: 1200px;
-	height: 50px;
-	text-align: center;
-	font-family: Arial;
-	
-}
 
 /* google frame code */
 .frame {
@@ -330,11 +335,11 @@ iframe {
 }
 
 
-a.btn { color: black; }
-a.btn:link { color: black; }
-a.btn:visited { color: black; }
-a.btn:hover { color: white; }
-a.btn:active { color: white; }
+a.btn 			{ color: black; }
+a.btn:link		{ color: black; }
+a.btn:visited 	{ color: black; }
+a.btn:hover 	{ color: white; }
+a.btn:active 	{ color: white; }
 
 
 /* end button code */
