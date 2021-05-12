@@ -2,9 +2,9 @@ body {
 	background-color: #243E36;
 }
 
-a:link 		{ color: blue; }
-a:visited 	{ color: blue; }
-a:hover 	{ color: white; }
+a:link 		{ color: #000000; }
+a:visited 	{ color: #000000; }
+a:hover 	{ color: #FFFFFF; }
 a:active 	{ color: red; }
 
 
@@ -95,8 +95,16 @@ img {
 }
 
 hr {
-	width: 250px;
+	width: 400px;
 	height: 5px;
+	background-color: #475B63;
+	border-radius: 10px;
+	border-color: #475B63;
+}
+
+.hrproject {
+	width: 250px;
+	height: 3px;
 	background-color: #475B63;
 	border-radius: 10px;
 	border-color: #475B63;
@@ -106,7 +114,7 @@ form label,
 form input,
 form textarea {
 	display: block;
-	width: 300px;
+	width: 425px;
 	border-radius: 10px;
 }
 
@@ -119,6 +127,10 @@ form textarea {
 .imgself {
 	height: 400px;
 	width: 325px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 
@@ -132,10 +144,10 @@ form textarea {
 	margin: 10px;
 	padding: 5px 15px;
 	border-radius: 25px;
-	color: blue;
+	color: #000000;
 	background-color: #7CA982;
 	border-color: #7CA982;
-	font-weight: bold;
+	font-weight: bolder;
 	margin-left: auto;
     margin-right: auto;
 }
@@ -163,13 +175,13 @@ a.btn:active 	{ color: white; }
 }
 
 iframe {
-	width: 450px;
+	width: 440px;
 	height: 550px;
 	border-radius: 25px;
 }
 
 .frame {
-	width: 450px;
+	width: 425px;
 	height: 550px;
 	padding: 0px;
 }
@@ -290,8 +302,8 @@ p {
 }
 
 section {
-	width: 600px:
-	height auto;
+	width: 600px;
+	height: auto;
 	margin: auto;
 }
 
